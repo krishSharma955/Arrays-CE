@@ -7,7 +7,7 @@ public class BuyandSellStocks {
         for(int i = 0; i<prices.length; i++) {
             if(buyprice<prices[i]) {
                 int profit = prices[i] - buyprice;
-                maxprofit += Math.max(profit, maxprofit);
+                maxprofit = Math.max(profit, maxprofit);
             }
             else {
                 buyprice = prices[i];
