@@ -1,5 +1,5 @@
 package Arrays;
-import java.util.*;
+// import java.util.*;
 
 public class SecondLargest {
     // public static int secondLargest(int arr[]) { //using sorting
