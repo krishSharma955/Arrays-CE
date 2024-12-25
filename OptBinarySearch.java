@@ -1,6 +1,6 @@
 package Arrays;
 
-public class OptBinarySearch { //firtst occurence of an element
+public class OptBinarySearch { //first occurence of an element
     public static int bSearch(int arr[], int target) {
         int start = 0;
         int end = arr.length-1;
